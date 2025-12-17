@@ -38,24 +38,27 @@ This study is needed to understand how an individual stock like Apple behaves in
 The dataset used in this study consists of historical daily stock price data for Apple Inc. and the S&P 500 index. It includes variables such as date, opening price, closing price, high, low, adjusted close, and trading volume, which are used to calculate returns, volatility, and risk measures for comparative analysis.
 
 Spread of the Dataset
-'''
-•	14,999 total records
-•	Mix of integer, float, and object data types
+•	6427 total records
+•	7 fields
 
 
 <a name="data-prep"></a>
 ## Data Preperation and Understanding
 One of the first steps engaged in was to outline the sequence of steps that will be following for the project. Each of these steps are elaborated below:
+**Target Field**
+The "Close" Price was selected as field of interest. This would be later used to claculate new fields like "return".
 
 <a name="phase-1"></a>
 ### Phase I - Data Extraction and Cleaning
-- Reading the dataset using Pandas
-- Identifying and handling missing values, outliers and duplicates
+- Historical Stock Data of Apple and S and P 500 were collected using yfinance python library. It provides easy access to Financial data from Yahoo Finance directly into dataframe format. I extracted : Apple Inc (AAPL) stock data, S and p 500 (^GSPC) data
+- Including fields like Open, High, Low, Close, Volume, Dividends, and Stock Splits
+- Data quality assurance- dataset was inspected for missing or null values.
 <br><br>
 <a name="phase-2"></a>
+
 ### Phase II - Exploratory Data Analysis
-- Performing univariate, bivariate and multivariate analysis to understand the data
-- Creating visualizations to summarize and present the data
+- Line graph  was used for initial visualization of "close" price of Apple , S and P 500.
+<img src="images\image_1.png"  alt="univariate analysis of data"></img>
 - Calculating summary statistics such as mean, median and standard deviation to describe the data
 
 <br><br>
