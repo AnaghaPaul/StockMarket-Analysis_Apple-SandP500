@@ -58,7 +58,8 @@ The "Close" Price was selected as field of interest. This would be later used to
 
 ### Phase II - Exploratory Data Analysis
 - Line graph  was used for initial visualization of "close" price of Apple , S and P 500.
-<img src="images\image_1.png"  alt="univariate analysis of data"></img>
+<img src="Images/image_1.jpg"  alt="line graph"></img>
+<img src="Images/image_2.jpg"  alt="line graph"></img>
 - Calculating summary statistics such as mean, median and standard deviation to describe the data
 
 <br><br>
