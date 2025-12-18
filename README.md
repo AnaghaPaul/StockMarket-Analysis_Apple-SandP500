@@ -74,10 +74,17 @@ The "Close" Price was selected as field of interest. This would be later used to
 - Daily returns , in particular , help us understand  short-term market movements and how sensitive a stock is to market events.
 - This analysis is crucial for comparing investments on a relative basis and for evaluating how consistently an asset generates profit over time.
 <img src="Images/image_6.jpg"  alt="returns"></img>
+- The plot above illustrates the daily returns of apple and the s and p 500 over time.
+- It is evident that apple tends to offer higher returns compared to the index , as seen in the more frequent and larger upward  spikes.
 
 <br><br>
 <a name="key-findings"></a>
 ## Key Findings
+- It is evident that apple tends to offer higher returns compared to the index.
+- However these higher returns come with a trade-off- Apple's stock is significantly more volatile. The daily returns fluctuate more widely, with sharp rises and steep drops, especially during market events like 2008 covid-19 crash.
+- This indicates that while apple has the potential for greater gains. It also carries higher risk due to it's price sensitivity and variability.
+- In contrast, the s and p 500 exhibits smaller, more stable movements, reflecting the diversified and lower-risk nature of the overall market.
 <a name="conclusion"></a>
 ## Conclusions
+- This comparison highlights a classic risk-return tradeoff: Higher potential reward usually comes with higher uncertainity.
 
